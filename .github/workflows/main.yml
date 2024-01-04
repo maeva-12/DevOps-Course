@@ -1,6 +1,6 @@
 name: ML Model CI 2
 
-on: [push]
+on: 
   workflow_dispatch    
 
 jobs:
