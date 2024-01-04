@@ -1,7 +1,10 @@
 name: ML Model CI 2
 
 on: 
-  workflow_dispatch    
+  push:
+    tags:
+      -'v*'
+
 
 jobs:
   build:
