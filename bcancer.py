@@ -28,4 +28,4 @@ print(f"Précision du modèle : {accuracy:.2f}")
 with open('model.pkl', 'wb') as file:
     pickle.dump(model, file)
 
-print("Modèle entraîné et même sauvegardé.")
+print("Modèle entraîné et sauvegardé.")
