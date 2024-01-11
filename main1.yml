@@ -15,5 +15,5 @@ jobs:
       uses: actions/checkout@v2
       name: Afficher Greeting dans le job 1
       run: |
-        echo "Ma variable a la valeur ${{ vars.MY_VAR }}"
+        echo "Ma variable a la valeur ${{ vars.PRENOM }}"
           
