@@ -1,4 +1,4 @@
-name: PRENOM
+name: Greeting
 
 on :
   workflow_dispatch
