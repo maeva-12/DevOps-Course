@@ -1,4 +1,4 @@
-name: Greeting
+name: Webitech
 
 on :
   workflow_dispatch
