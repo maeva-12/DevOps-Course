@@ -1,0 +1,19 @@
+name: Greeting Global
+
+on:
+  workflow_dispatch:
+
+env:
+  MY_VARIABLE: "Valeur de ma variable globale"
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      name: Afficher Greeting dans le job 1
+      run: |
+        echo "Ma variable a la valeur ${{ vars.MYVAR }}"
+          
