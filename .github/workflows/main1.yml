@@ -3,9 +3,6 @@ name: PRENOM
 on:
   workflow_dispatch:
 
-env:
-  MY_VARIABLE: "Valeur de ma variable globale"
-
 jobs:
   job1:
     runs-on: ubuntu-latest
