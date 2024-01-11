@@ -1,4 +1,4 @@
-name: Greeting Global
+name: PRENOM
 
 on:
   workflow_dispatch:
